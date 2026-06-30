@@ -5,7 +5,7 @@ description: Build GTK4 GUI applications with Relm4. Covers the Elm-architecture
 
 # Relm4 App Developer
 
-> **Relm4 0.9.x** | Rust 2021 | GTK4 | Optional: libadwaita
+> **Relm4 0.10.x** | Rust 2024 (or 2021) | GTK4 | Optional: libadwaita
 
 Relm4 is an idiomatic Rust GUI library inspired by Elm and based on GTK4. Think of it as: **your state lives in a struct → user clicks something → you get a message → you update the struct → the UI syncs automatically.**
 
@@ -156,8 +156,8 @@ Key mental model: **Relm4 runs in a loop.**
 
 ```toml
 [dependencies]
-relm4 = "0.9.1"
-# relm4 = { version = "0.9.1", features = ["libadwaita"] }  # for libadwaita
+relm4 = "0.10.1"
+# relm4 = { version = "0.10.1", features = ["libadwaita"] }  # for libadwaita
 
 [build-dependencies]       # only needed for resource bundles
 glib-build-tools = "0.17.10"

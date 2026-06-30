@@ -6,7 +6,7 @@ This skill is based on the [Relm4 Book](https://relm4.org/book/stable/) and cove
 
 ## Overview
 
-This skill gives AI coding agents deep knowledge of Relm4 0.9.x, including its component model, the `view!` macro, factory patterns, async/threading support, and GTK4/libadwaita integration. When you ask an agent to build a GTK4 app in Rust, it consults this skill to produce idiomatic, working code.
+This skill gives AI coding agents deep knowledge of Relm4 0.10.x, including its component model, the `view!` macro, factory patterns, async/threading support, and GTK4/libadwaita integration. When you ask an agent to build a GTK4 app in Rust, it consults this skill to produce idiomatic, working code.
 
 ## Installation
 
@@ -71,8 +71,8 @@ relm4-app-skill/
 
 ## Requirements
 
-- **Rust 2021 edition** or later
-- **Relm4 0.9.x**
+- **Rust 2024 edition** recommended (2021 also works)
+- **Relm4 0.10.x** (or 0.9.x with minor adjustments)
 - **GTK4** development packages installed on your system
 
 ### Installing GTK4

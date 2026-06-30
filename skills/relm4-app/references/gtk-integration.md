@@ -152,7 +152,7 @@ gtk::Box {
 Add feature to `Cargo.toml`:
 
 ```toml
-relm4 = { version = "0.9.1", features = ["libadwaita"] }
+relm4 = { version = "0.10.1", features = ["libadwaita"] }
 ```
 
 Then use `relm4::adw::*`:
@@ -364,7 +364,7 @@ Relm4 offers extra crates to speed up development:
 - **[relm4-icons](https://github.com/Relm4/icons)**: 2000+ ready-to-use icons
 
   ```toml
-  relm4-icons = "0.9.1"
+  relm4-icons = "0.10.1"
   ```
 
   ```rust
